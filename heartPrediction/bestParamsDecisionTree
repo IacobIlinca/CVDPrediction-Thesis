@@ -1,0 +1,15 @@
+Decision Tree accuracy for Heart Failure dataset:
+Best parameters: {'criterion': 'entropy', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 20}
+Accuracy of Decision Tree with best hyperparameters: 0.782608695652174
+
+
+
+Decision Tree accuracy for Heart Disease dataset:
+Best parameters: {'criterion': 'gini', 'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+Accuracy of Decision Tree with best hyperparameters: 0.9707792207792207
+
+
+
+Decision Tree accuracy for Framingham dataset:
+Best parameters: {'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 20}
+Accuracy of Decision Tree with best hyperparameters: 0.8240563019833653

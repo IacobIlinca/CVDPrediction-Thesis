@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: heartPrediction_backend
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    url: jdbc:postgresql://localhost:9111/usersDB
+    username: user
+    password: Linistit123!
+    driver-class-name: org.postgresql.Driver
+
+jwt:
+  expireAfterInMinutes: 720
+  secret-key: Q7C3RhlmSO/zOLykT8CsB4OhqPH8PGnY3isfpmSoNx7bmfJHKhlPaqmjr4wJMxbsSCx64EnXRfS3TO4SDDQgHNWfUsi7Ugf5y6QPJnG+lyi4HpJBrSqC9B9PthCmBCC4bOGRTmKR1Fm1Ub93jJtDTqJh3nvrffXNUnK6AlEKZjRMjQvQ9viLcRIYVgXY704i7SspQ1bcfdgiFXB/3DLMR9wgZ6Y44mk9gAX/ka/wSXTOTbuJw493ay1SJyctj19Vb3nGHVV0whrHkM1K2DIAL1wT1z4uD8a8T+uUd0R1oCw/Xdvd/s/SN9HWgH36XOyRsqO18LJSwYRXdRe0m64bqgAjA6hxwnq7MYDWZFlmIe0VIaYGX20rLJaEuvJDW6UGCppwRM6rf+uzXaQOyp8SNBOy3yZjod6ynRIvMTyjUjcKpX8wWGOyihbIshll7FGanDcUXxwaQllDxRdugMnMupLLgiVNx15QZOb70VXywT/MOr28jSrxi/rXvCtdMiu0cYXBJf8npVsRVb1UZnBnN0WcXFoAYxl4WHpr3q2RXBNCBARqKFyyWVzLQeANl0xzqzHURwdVdcGO08vVJylS8uhifUAwVI4AfdifPSASKLszs8YHvKj8+XT0UBjIKO38WmlQV3l5MqeiuipM7/L2W0zvBopa5PvTZLoS+wVApuZgl4TmtaSI4kwTaATF7DJD
+server:
+  error:
+    include-message: always

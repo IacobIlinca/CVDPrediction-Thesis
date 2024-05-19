@@ -1,0 +1,30 @@
+// React Component Structure
+digraph {
+	A [label=Container]
+	B [label="Top Section"]
+	C [label="Bottom Section"]
+	D [label="Left Subsection (Top)"]
+	E [label="Right Subsection (Top)"]
+	F [label="Typography + FaHeartbeat"]
+	G [label=AppDescription]
+	H [label=PieChart]
+	I [label="Left Subsection (Bottom)"]
+	J [label="Right Subsection (Bottom)"]
+	K [label=PredictionForm]
+	L [label=PredictionList]
+	M [label=LegendBox]
+	N [label=CardioInfo]
+	A -> B
+	A -> C
+	B -> D
+	B -> E
+	D -> F
+	D -> G
+	E -> H
+	C -> I
+	C -> J
+	I -> K
+	I -> L
+	J -> M
+	J -> N
+}

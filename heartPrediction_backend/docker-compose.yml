@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: heartPrediction
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: Linistit123!
+      POSTGRES_DB: usersDB
+    ports:
+      - "9111:5432"
+

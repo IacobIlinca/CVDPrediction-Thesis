@@ -1,0 +1,51 @@
+Data Analysis part for Heart Failure Dataset
+First 5 rows of the table
+   Age Sex ChestPainType  RestingBP  Cholesterol  FastingBS RestingECG  MaxHR ExerciseAngina  Oldpeak ST_Slope  HeartDisease
+0   40   M           ATA        140          289          0     Normal    172              N      0.0       Up             0
+1   49   F           NAP        160          180          0     Normal    156              N      1.0     Flat             1
+2   37   M           ATA        130          283          0         ST     98              N      0.0       Up             0
+3   48   F           ASY        138          214          0     Normal    108              Y      1.5     Flat             1
+4   54   M           NAP        150          195          0     Normal    122              N      0.0       Up             0
+Shape of the dataSet(918, 12)
+
+Basic statistical details like percentile, mean, std, etc. of a data frame 
+              Age   RestingBP  Cholesterol   FastingBS       MaxHR     Oldpeak  HeartDisease
+count  918.000000  918.000000   918.000000  918.000000  918.000000  918.000000    918.000000
+mean    53.510893  132.396514   198.799564    0.233115  136.809368    0.887364      0.553377
+std      9.432617   18.514154   109.384145    0.423046   25.460334    1.066570      0.497414
+min     28.000000    0.000000     0.000000    0.000000   60.000000   -2.600000      0.000000
+25%     47.000000  120.000000   173.250000    0.000000  120.000000    0.000000      0.000000
+50%     54.000000  130.000000   223.000000    0.000000  138.000000    0.600000      1.000000
+75%     60.000000  140.000000   267.000000    0.000000  156.000000    1.500000      1.000000
+max     77.000000  200.000000   603.000000    1.000000  202.000000    6.200000      1.000000
+The count of null values for each column
+Age               0
+Sex               0
+ChestPainType     0
+RestingBP         0
+Cholesterol       0
+FastingBS         0
+RestingECG        0
+MaxHR             0
+ExerciseAngina    0
+Oldpeak           0
+ST_Slope          0
+HeartDisease      0
+How many people suffered from heart diseases (0-no, 1-yes)
+HeartDisease
+1    508
+0    410
+Number of duplicated rows is: 0
+Datatypes for each column:
+Age                 int64
+Sex                object
+ChestPainType      object
+RestingBP           int64
+Cholesterol         int64
+FastingBS           int64
+RestingECG         object
+MaxHR               int64
+ExerciseAngina     object
+Oldpeak           float64
+ST_Slope           object
+HeartDisease        int64

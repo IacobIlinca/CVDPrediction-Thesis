@@ -1,0 +1,41 @@
+Best parameters: {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+Classification report for SVM is
+              precision    recall  f1-score   support
+
+           0       0.88      0.82      0.85       114
+           1       0.87      0.91      0.89       148
+
+    accuracy                           0.87       262
+   macro avg       0.87      0.87      0.87       262
+weighted avg       0.87      0.87      0.87       262
+
+   Accuracy  F1 Score    Recall  Precision
+0  0.874046  0.873506  0.874046   0.874247
+Best parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'rbf'}
+Classification report for SVM is
+              precision    recall  f1-score   support
+
+           0       0.93      0.94      0.93       159
+           1       0.93      0.93      0.93       149
+
+    accuracy                           0.93       308
+   macro avg       0.93      0.93      0.93       308
+weighted avg       0.93      0.93      0.93       308
+
+   Accuracy  F1 Score    Recall  Precision
+0  0.931818   0.93181  0.931818   0.931822
+Best parameters: {'C': 10, 'gamma': 'scale', 'kernel': 'poly'}
+Classification report for SVM is
+              precision    recall  f1-score   support
+
+           0       1.00      0.38      0.55       390
+           1       0.82      1.00      0.90      1095
+
+    accuracy                           0.84      1485
+   macro avg       0.91      0.69      0.73      1485
+weighted avg       0.87      0.84      0.81      1485
+
+   Accuracy  F1 Score    Recall  Precision
+0  0.837037  0.808493  0.837037   0.866534
+
+Process finished with exit code 0
